@@ -1,4 +1,4 @@
-package rg.glassfish.samples.entities;
+package org.glassfish.samples.entities;
 
 import java.io.Serializable;
 import javax.persistence.Basic;
@@ -199,7 +199,7 @@ public class Customer implements Serializable {
 
 //    @Override
 //    public String toString() {
-//        return "rg.glassfish.samples.entities.Customer[ customerId=" + customerId + " ]";
+//        return "org.glassfish.samples.entities.Customer[ customerId=" + customerId + " ]";
 //    }
 
     @Override
