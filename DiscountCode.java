@@ -1,4 +1,4 @@
-package rg.glassfish.samples.entities;
+package org.glassfish.samples.entities;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
@@ -94,7 +94,7 @@ public class DiscountCode implements Serializable {
 
     @Override
     public String toString() {
-        return "rg.glassfish.samples.entities.DiscountCode[ discountCode=" + discountCode + " ]";
+        return "org.glassfish.samples.entities.DiscountCode[ discountCode=" + discountCode + " ]";
     }
     
 }
