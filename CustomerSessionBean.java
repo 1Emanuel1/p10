@@ -1,4 +1,4 @@
-package rg.glassfish.samples.entities;
+package org.glassfish.samples.entities;
 
 import java.util.List;
 import javax.ejb.Stateless;
