@@ -1,4 +1,4 @@
-package rg.glassfish.samples.entities;
+package org.glassfish.samples.entities;
 
 import java.io.Serializable;
 import java.util.Collection;
@@ -16,10 +16,6 @@ import javax.validation.constraints.Size;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlTransient;
 
-/**
- *
- * @author xt
- */
 @Entity
 @Table(name = "MICRO_MARKET")
 @XmlRootElement
@@ -118,7 +114,7 @@ public class MicroMarket implements Serializable {
 
 //    @Override
 //    public String toString() {
-//        return "rg.glassfish.samples.entities.MicroMarket[ zipCode=" + zipCode + " ]";
+//        return "org.glassfish.samples.entities.MicroMarket[ zipCode=" + zipCode + " ]";
 //    }
 
     @Override
